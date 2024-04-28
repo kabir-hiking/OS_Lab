@@ -1,0 +1,24 @@
+cd /home/kali/Desktop/20101040/
+touch fork.c
+gcc fork.c -o fork.out    
+./fork.out  
+
+hello world (pid:124776) 
+hello, I am parent of 124777 (pid:124776) 
+hello, I am child (pid:124777) 
+
+
+
+touch semaphore
+touch semaphore.c
+gcc semaphore.c -o test -std=gnu99 -lpthread -lrt
+./test    
+
+Hello from (pid = 141705)
+Hello from (pid = 141705)
+Hello from (pid = 141707)                                                    
+Hello from (pid = 141707)
+Hello from (pid = 141706)
+Hello from (pid = 141706)
+Hello from (pid = 141708)
+Hello from (pid = 141708)
